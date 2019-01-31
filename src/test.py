@@ -19,6 +19,7 @@ def get_day_of_day(n=0):
     else:
         return date.today() + timedelta(days=n)
 
+
 def check_meid(argv):
     # 根据门店，天数取数据，利用模型文件去验证概率
     meid = FLAGS.meid
